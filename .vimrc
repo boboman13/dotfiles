@@ -8,10 +8,9 @@ call vundle#begin()
 
 Plugin 'gmarik/Vundle.vim'
 Plugin 'mattn/flappyvird-vim'
+Plugin 'Lokaltog/vim-powerline'
 
 call vundle#end()
 filetype plugin indent on
 
-" Status Line
-set ls=2
-set statusline="Editing %f"
+set laststatus=2
