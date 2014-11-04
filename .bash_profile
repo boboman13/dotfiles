@@ -6,4 +6,6 @@ PS1="${YELLOW}\u${CLEAR} in ${BLUE}\w${CLEAR} $ "
 
 alias ls="ls -G"
 
+export GOPATH=$HOME
+
 source ~/.bashrc
