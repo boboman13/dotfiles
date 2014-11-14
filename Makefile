@@ -5,6 +5,6 @@ install:
 	cp vim/.vimrc ~/.vimrc
 	cp bash/.bash_profile ~/.bash_profile
 	# Scripts
-	cp scripts/* /usr/bin/
+	cp -p scripts/* /usr/bin/
 
 .PHONY: install
