@@ -1,7 +1,10 @@
 # Makefile for my dotfiles
 
 install:
-	cp .vimrc ~/.vimrc
-	cp .bash_profile ~/.bash_profile
+	# Singular files
+	cp vim/.vimrc ~/.vimrc
+	cp bash/.bash_profile ~/.bash_profile
+	# Scripts
+	cp scripts/* /usr/bin/
 
 .PHONY: install

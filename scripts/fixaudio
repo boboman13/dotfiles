@@ -1,0 +1,3 @@
+#!/bin/bash
+# Fix my laptop audio
+sudo killall coreaudiod
