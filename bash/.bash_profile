@@ -11,6 +11,7 @@ dotfiles_addaliases () {
 }
 
 dotfiles_setup_golang () {
+	export GOROOT=/usr/local/opt/go/libexec
 	export GOPATH=$HOME/Go
 	export PATH=$PATH:$GOPATH/bin
 }
