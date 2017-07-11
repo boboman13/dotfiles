@@ -11,7 +11,8 @@ dotfiles_addaliases () {
 }
 
 dotfiles_setup_golang () {
-	export GOPATH=$HOME
+	export GOPATH=$HOME/Go
+	export PATH=$PATH:$GOPATH/bin
 }
 
 # Call functions
